@@ -2,7 +2,7 @@
 
 ![ssh login](resources/ssh-login.jpg)
 
-Setting up a public/private key pair for [SSH](https://en.wikipedia.org/wiki/Secure_Shell) authentication is a secure and fast way to authenticate from your computer to the Raspberry Pi and will be used by Visual Studio Code Remote SSH Development.
+Setting up a public/private key pair for [SSH](https://en.wikipedia.org/wiki/Secure_Shell) authentication is a secure and fast way to authenticate from your computer to the Raspberry Pi. Visual Studio Code Remote SSH Development will be using SSH authentication.
 
 The Raspberry Pi SSH Authentication utility will prompt you for:
 
@@ -15,7 +15,7 @@ The SSH utility guides you through the process of setting up a secure SSH channe
 
 1. Start Powershell
     From the Start Menu. Click Start, type PowerShell, and then click Windows PowerShell.
-2. Download the Raspberry Pi SSH Authentication Utility. 
+2. Download the Raspberry Pi SSH Authentication Utility.
 
     Run the following PowerShell command.
 
@@ -30,8 +30,6 @@ The SSH utility guides you through the process of setting up a secure SSH channe
     ```powershell
     .\windows-ssh-setup.cmd
     ```
-
-
 
 ### Set up SSH for Linux and macOS Users
 
