@@ -8,15 +8,17 @@ Setting up a public/private key pair for [SSH](https://en.wikipedia.org/wiki/Sec
 
 The SSH utility guides you through the process of setting up a secure SSH channel for Visual Studio Code and the Raspberry Pi.
 
-You will be prompted for:
+1. **Download** the [Raspberry Pi SSH Authentication Utility](https://github.com/gloveboxes/Setting-up-Raspberry-Pi-SSH-Authentication/archive/master.zip) from GitHub
+2. **Open** Windows File Explorer and navigate to the your *Download* directory. 
+3. **Double click** on the **Setting-up-Raspberry-Pi-SSH-Authentication-master.zip* file.
+4. **Navigate** to the *Setting-up-Raspberry-Pi-SSH-Authentication-master* directory
+5. **Drag and drop** the **windows-ssh-setup.cmd** to your Desktop
+6. **Start** the Raspberry Pi SSH Authentication Utility
 
-- The Raspberry Pi Network IP Address,
-- The Raspberry Pi login name and password. The Raspberry Pi **default** login name is **pi**, and the default password is **raspberry**.
+    From your Desktop, double click on the **windows-setup-ssh.cmd** file. You will be prompted for:
 
-1. From Windows File Explorer, open the directory you cloned the Environment Monitor solution into.
-2. Open the **environment** directory
-3. Open the **scripts** folder
-4. Double click the **windows-setup-ssh.cmd**
+    - The Raspberry Pi Network IP Address,
+    - The Raspberry Pi login name and password. The Raspberry Pi **default** login name is **pi**, and the default password is **raspberry**.
 
 ### Set up SSH for Linux and macOS Users
 
