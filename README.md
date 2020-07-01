@@ -31,5 +31,5 @@ You will be prompted for:
 2. Copy and paste the following command, and press **ENTER**
 
     ```bash
-    curl https://raw.githubusercontent.com/gloveboxes/Raspberry-Pi-Python-Environment-Monitor-with-the-Pimoroni-Enviro-Air-Quality-PMS5003-Sensor/master/scripts/ssh-setup.sh | bash
+    curl https://raw.githubusercontent.com/gloveboxes/Setting-up-Raspberry-Pi-SSH-Authentication/master/ssh-setup.sh | bash
     ```
